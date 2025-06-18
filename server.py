@@ -12,7 +12,7 @@ from groq import Groq
 app = FastAPI()
 
 # Initialize Groq client (replace with your actual API key)
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 # Serve static files under /static; index.html served at root
 app.mount("/static", StaticFiles(directory="static"), name="static")
